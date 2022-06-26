@@ -1,0 +1,66 @@
+.super-main-container-for-tests {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.filler {
+    height: 70px;
+    width: 100%;
+}
+
+.main-test-link-icon-container{
+    border-radius: 15px;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    margin: 20px;
+}
+
+.main-test-link-icon-container img{
+    width: 300px;
+    height: 200px;
+    
+}
+
+.glass-test-link-icon-cover{
+    position: absolute;
+    top: 200px;
+    background-color: rgba(200, 200, 200, 0.2);
+    width: 300px;
+    height: 200px;
+    transition: .3s;
+    padding-top: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.main-test-link-icon-container:hover .glass-test-link-icon-cover{
+    top: 0;
+
+}
+
+.test-title {
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: left;
+}
+
+.glass-test-link-icon-cover span {
+    background-color: #03a9f4;
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 1.7rem;
+    color: #fff;
+}
+
